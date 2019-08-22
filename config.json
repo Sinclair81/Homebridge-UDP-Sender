@@ -1,0 +1,31 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+  "platforms": [],
+
+  "accessories": [
+      {
+        "accessory": "Udp-Sender",
+        "name": "Light 1",
+        "ip": "192.168.1.139",
+        "port": "8888",
+        "on_msg": "R11",
+        "off_msg": "R10",
+        "state_msg": "R1?"
+      },
+      {
+        "accessory": "Udp-Sender",
+        "name": "LED Tree",
+	      "ip": "192.168.1.139",
+        "port": "8888",
+	      "on_msg": "R71",
+        "off_msg": "R70",
+        "state_msg": "R7?"
+     }
+   ]
+}

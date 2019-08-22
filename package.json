@@ -1,0 +1,13 @@
+{
+  "name": "homebridge-udp-sender",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "UDP Sender plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=6.0.0"
+  }
+}
