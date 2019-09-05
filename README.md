@@ -18,7 +18,7 @@ Name | Value | Required | Notes
 -------------- | ------------- | -------- | -------------------------------------
 `accessory` | "Udp-Sender" | yes | Must be set to "Udp-Sender" and is required.
 `name` | (custom) | yes | Name of accessory that will appear in homekit app and is required.
-`ip` | "192.168.1.139" | yes | Must be set to the IP of your UDP Client and is required.
+`ip` | "10.0.0.6" | yes | Must be set to the IP of your UDP Client and is required.
 `on_msg` | "R11" | yes | Must be set to the message to turn something on and is required.
 `off_msg` | "R10" | yes | Must be set to the message to turn something off and is required
 `state_msg` | "R1?" | yes | Must be set to the message to get the state of something and is required.
@@ -30,8 +30,8 @@ Name | Value | Required | Notes
     {
       "accessory": "Udp-Sender",
       "name": "Light 1",
-      "ip": "192.168.1.139",
-      "port": "8888",
+      "ip": "10.0.0.6",
+      "port": "5000",
       "on_msg": "R11",
       "off_msg": "R10",
       "state_msg": "R1?"
@@ -39,8 +39,8 @@ Name | Value | Required | Notes
     {
       "accessory": "Udp-Sender",
       "name": "LED Tree",
-      "ip": "192.168.1.139",
-      "port": "8888",
+      "ip": "10.0.0.6",
+      "port": "5000",
       "on_msg": "R71",
       "off_msg": "R70",
       "state_msg": "R7?"

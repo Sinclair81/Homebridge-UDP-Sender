@@ -12,8 +12,8 @@
       {
         "accessory": "Udp-Sender",
         "name": "Light 1",
-        "ip": "192.168.1.139",
-        "port": "8888",
+        "ip": "10.0.0.6",
+        "port": "5000",
         "on_msg": "R11",
         "off_msg": "R10",
         "state_msg": "R1?"
@@ -21,8 +21,8 @@
       {
         "accessory": "Udp-Sender",
         "name": "LED Tree",
-	      "ip": "192.168.1.139",
-        "port": "8888",
+	      "ip": "10.0.0.6",
+        "port": "5000",
 	      "on_msg": "R71",
         "off_msg": "R70",
         "state_msg": "R7?"
