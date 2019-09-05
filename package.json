@@ -1,12 +1,12 @@
 {
   "name": "homebridge-udp-sender",
   "version": "0.1.1",
-  "homepage": "https://github.com/sinclair81/homebridge-udp-sender"
+  "homepage": "https://github.com/sinclair81/homebridge-udp-sender",
   "author": {
     "name": "Sinclair81",
     "email": "dev.sinclair81@gmail.com",
     "url": "https://github.com/sinclair81"
-  }
+  },
   "license": "MIT",
   "description": "UDP Sender plugin for Homebridge: https://github.com/nfarina/homebridge",
   "keywords": [
