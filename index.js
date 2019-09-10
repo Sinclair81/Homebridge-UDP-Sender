@@ -1,17 +1,12 @@
 var Service;
 var Characteristic;
 
-var sys = require('sys');
 var dgram = require('dgram');
 
 module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   homebridge.registerAccessory('homebridge-udp-sender', 'Udp-Sender', UdpSenderAccessory);
-}
-
-function puts(error, stdout, stderr) {
-   console.log(stdout)
 }
 
 function UdpSenderAccessory(log, config) {
