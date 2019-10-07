@@ -3,6 +3,8 @@ Homebridge-UDP-Sender
 
 Send UDP packets e.g. to an ESP32 to control relays.
 
+If you use Homebridge-UDP-Sender please donate: [PayPal.Me/Sinclair81](PayPal.Me/Sinclair81) !!
+
 ## Installation
 (Requires node >=6.0.0)
 
