@@ -1,6 +1,6 @@
 {
   "name": "homebridge-udp-sender",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/sinclair81/homebridge-udp-sender",
   "author": {
     "name": "Sinclair81",
